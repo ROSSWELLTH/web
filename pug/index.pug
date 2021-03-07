@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		title Desarrollador ROSSWELLTH
+
+		meta(charset="UTF-8")
+		meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+
+		meta(name='title' content='ROSSWELLTH Desarrollador Delphi y Web')
+		meta(name='site_name' content='ROSSWELLTH desarrollador FreeLancer experto en Delphi y Web')
+		meta(name='description' content='Experto en el desarrollo de aplicaciones en el lenguaje Delphi y en creación y mantenimiento de páginas web')
+		meta(name='keywords' content='desarrollador, desarrollador delphi, desarrollador web, ROSSWELLTH, willmerg, Delphi willmerg')
+		meta(name= 'author' content='ROSSWELLTH, RosswellthAvello@gmail.com')
+
+		link(type="text/plain" rel="author" href="humans.txt")
+		link(rel="stylesheet" type="text/css" href="css/normalize.6.0.css")
+		link(rel="stylesheet" type="text/css" href="css/animate.min.3.5.2.css")
+		link(rel="stylesheet" type="text/css" href="css/estilos.min.css")
+
+		script(type="text/javascript" src="js/jquery-3.2.2.min.js")
+		script(type='text/javascript' src='js/scroll-animado.js')
+
+	body
+		#particles-js.particulas
+		main.container
+
+			nav.row.menu
+				a(href="#inicio") Inicio
+				a(href="#conocimientos") Conocimientos
+				a(href="#estudios") Estudios
+				a(href="#experiencia") Experiencia
+				//- a(href="#") Proyectos
+			header#inicio.row.between-lg.middle-lg.saludo
+				.col-lg-9.center-lg.entrada
+					p Hola bienvenido a mi pagina web
+					p (Desarrollador Delphi y Web)
+				//- .fadeInRight.animated
+				.col-lg-3.nombre
+					h2.center-lg.
+						ROSSWELLTH
+						RosswellthAvello@gmail.com
+					img(src="img/mk.png", alt="Willmer Img")
+					.row.center-lg
+						a(href="mailto:RosswellthAvello@gmail.com").col-lg.icon-envelope
+						a(href="https://twitter.com/RosswellthAvello" target="blank").col-lg.icon-twitter
+						a(href="https://github.com/ROSSWELLTH" target="blank").col-lg.icon-github
+					//	a(href="https://www.linkedin.com/in/willmer-gonz%C3%A1lez-a8b71995/" target="blank").col-lg.icon-linkedin
+						//- a(href="").col-lg.icon-facebook
+
+				//- .slideInDown.animated
+			#conocimientos
+			aside.row.conocimientos.fadeOutRight.animated
+				h1.col-lg-12.center-lg Conocimientos
+
+				h2.col-lg-12.center-lg Lenguajes de Programación
+				.col-lg
+					.circular-progress.delphi
+				.col-lg
+					.circular-progress.html
+				.col-lg
+					.circular-progress.css
+				.col-lg
+					.circular-progress.javescript
+				.col-lg
+					.circular-progress.jquery
+				.col-lg
+					.circular-progress.php
+
+				h2.col-lg-12.center-lg Base de Datos
+				.col-lg
+					.circular-progress.sql
+				.col-lg
+					.circular-progress.oracle
+				.col-lg
+					.circular-progress.pervasive
+				.col-lg
+					.circular-progress.db2
+				.col-lg
+					.circular-progress.mysql
+
+				h2.col-lg-12.center-lg Tecnologías
+				.col-lg
+					.circular-progress.sass
+				.col-lg
+					.circular-progress.pug
+				.col-lg
+					.circular-progress.devexpress
+				.col-lg
+					.circular-progress.linux
+				.col-lg
+					.circular-progress.windows
+
+			aside#estudios.row.estudios
+				h1.col-lg-12.center-lg Estudios
+				article.col-lg-6
+					#estudios1.caja.rotateOutDownLeft.animated
+						h2 Instituto Universitario de Administración Industrial (IUTA) Caracas, Distrito Capital
+						p Técnico Superior en Informática
+						p Periodo: 2002 – 2005
+				article.col-lg-6
+					#estudios2.caja.rotateOutDownRight.animated
+						h2 Unidad Educativa Nacional 25 de Julio Caracas, Distrito Capital
+						p Titulo: Bachiller en Informática
+						p Periodo: 1997 - 2002
+
+			aside#experiencia.row.estudios
+				h1.col-lg-12.center-lg Experiencia Laboral
+				article.col-lg-6
+					.caja.flipOutX.animated
+						h2 Actividad: Desarrollo de aplicaciones y mejoras a los sistemas de control de títulos y acciones de valores
+						p Puesto: Desarrollador Delphi
+						p Empresa: LA Sistemas
+						p Periodo: 02/02/2006 – laborando actualmente
+				article.col-lg-6
+					.caja.flipOutX.animated
+						h2 Actividad: Mejoras en el sistema Web de Inventario de equipos de telecomunicaciones
+						p Puesto: Pasante desarrollador web
+						p Empresa: Comandancia General de la Armada de la República de Venezuela
+						p Periodo: 20/04/2005 – 15/06/2006
+
+		script(type='text/javascript' src='js/particles.min.js')
+		script(type='text/javascript').
+			particlesJS.load('particles-js', 'js/particlesjs-config.json', function() {
+				console.log('Cargado Exitosamente el archivo: "js/particlesjs-config.json" ');
+			});

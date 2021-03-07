@@ -1,0 +1,11 @@
+/* TEAM */
+	Author: Rosswellth 	Avello
+	Contact: Rosswellthavello@gmail.com
+	Twitter: @Rosswellthavello
+	From: Caracas Venezuela
+
+/* SITE */
+	Last update: 2017/08/04
+	Language: English / Castellano
+	Doctype: HTML5
+	Technology: Sublime Text3, FireBug, Git, SCSS, PUG
